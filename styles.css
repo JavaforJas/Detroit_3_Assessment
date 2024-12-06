@@ -1,0 +1,164 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #000; /* Black background */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #FFD700; /* Gold accent */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #FFD700; /* Gold accent */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #FFC107; /* Lighter gold on hover */
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 0;
+    background-color: #000; /* Black background */
+}
+
+h2 {
+    color: #FFD700; /* Gold accent for section titles */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Member Spotlight */
+#spotlight-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#member-info {
+    text-align: center;
+}
+
+#member-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #FFD700; /* Gold border around member image */
+}
+
+.member-link {
+    color: #FFD700; /* Gold accent */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.member-link:hover {
+    color: #FFC107; /* Lighter gold on hover */
+}
+
+#next-member {
+    background-color: #FFD700; /* Gold background */
+    color: #000; /* Black text */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#next-member:hover {
+    background-color: #FFC107; /* Lighter gold on hover */
+}
+
+/* Gallery Section */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.image-gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #FFD700; /* Gold border around images */
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222; /* Dark background for the form */
+    border-radius: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #FFD700; /* Gold border around inputs */
+    border-radius: 5px;
+    background-color: #333; /* Dark background for input fields */
+    color: #fff;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #FFC107; /* Lighter gold when focused */
+}
+
+button {
+    background-color: #FFD700; /* Gold background */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #FFC107; /* Lighter gold on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #000; /* Black background */
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid #FFD700; /* Gold accent */
+}
+
+footer p {
+    color: #FFD700; /* Gold accent text */
+    font-size: 1rem;
+}
